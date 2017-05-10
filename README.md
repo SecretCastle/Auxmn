@@ -2,6 +2,123 @@
 
 ## css
 
+### 小工具
+1、样式重置代码
+
+```
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+input,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-style: normal;
+    list-style: none;
+}
+```
+
+2、避免padding和width一起使用
+
+css中```box-sizing```默认的是```content-box```。即```width = content宽度```，不包括padding，margin，和border。所以在使用padding时，宽度固定的情况下，可以使用
+
+```
+.box{
+	width:200px;
+	padding:20px;
+	box-sizing: border-box;
+}
+```
+```border-box```属性表示的是```width = content宽度+ padding + border``` 即表示，box的宽度包括padding, border,但不包括margin
+
+
+3、移动端开发中，ios的input type经过美化的，所以要去掉原有的样式
+
+```
+{
+-webkit-appearance:none;
+	outline:none
+}
+```
+
+
 ### CSS实现单行、多行文本溢出显示省略号（…）
 
 1、单行文本溢出，此时需要设定box宽度来兼容部分浏览
