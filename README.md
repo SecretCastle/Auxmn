@@ -159,6 +159,109 @@ p::after{
 * 给p::after添加渐变背景可避免文字只显示一半。
 * 由于ie6-7不显示content内容，所以要添加标签兼容ie6-7（如：<span>…<span/>）；兼容ie8需要将::after替换成:after。
 
+### css布局
+1、左边固定宽度，右边自适应
+
+Html
+
+```
+<!--method1 使用left=>float:left;right=>margin-left:200px;-->
+<div class="left">1</div>
+<div class="right">2</div>
+<!---->
+
+<!--method2 使用left=> position:absolute;right=>margin-left:200px;-->
+<div class="wrap">
+	<div class="left2">1</div>
+	<div class="right2">2</div>
+</div>
+<!---->
+
+<!--method3 使用wrap2=>display:flex; left=>固定宽度;right=>flex:1;-->
+<div class="wrap2">
+	<div class="left3">1</div>
+	<div class="right3">2</div>
+</div>
+<!---->
+
+```
+Css
+
+```css
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.left{
+	width:200px;
+	background:#f00;
+	float:left;
+}
+.right{
+	background:blue;
+}
+
+.left2{
+	width:200px;
+	background:#f00;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.right2{
+	background:blue;
+	margin-left:200px;
+}
+.wrap{
+	position:relative;
+}
+
+.wrap2{
+	display:flex;	
+}
+
+.left3{
+	width:200px;
+	background:#f00;
+}
+
+.right3{
+	flex:1;
+	background:blue;
+}
+
+```
+2、右边固定宽度，左边自适应
+
+```
+<div class="main">
+	<div class="rightbox"></div>
+	<div class="left box"></div>
+</div>
+```
+```css
+.main{
+	position:relative;
+	.leftbox{
+		margin-right:200px;
+		background:#eee;
+	}
+	.rightbox{
+		float:right;
+		width:200px;
+		background:#f00;
+	}
+}
+.main::after{
+	content:"";
+	clear:both;
+	overflow:hidden;
+}
+
+```
+
 ## JavaScript
 
 ### Promise
