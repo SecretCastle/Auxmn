@@ -92,6 +92,15 @@ video {
 }
 ```
 
+#### 设置半透明的背景
+```css
+#box{
+	width:200px;
+	height:150px;
+	background:rgba(255,255,255,0.5); //color white
+}
+```
+
 #### 避免padding和width一起使用
 
 css中```box-sizing```默认的是```content-box```。即```width = content宽度```，不包括padding，margin，和border。所以在使用padding时，宽度固定的情况下，可以使用
