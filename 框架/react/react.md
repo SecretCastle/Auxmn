@@ -4,7 +4,56 @@
 
 #### react 的生命周期
 
+##### 实例化
 
+- ```getDefaultProps ```    	
+	
+	组件类型首次实例化时初始化默认props属性，多实例共享
+	
+- ```getInitialState ```    	
+	
+	实例化时初始化默认state属性
+	
+- ```componentWillMount ``` 	
+	
+	在渲染之前触发一次
+	
+- ```render ```					
+	
+	渲染函数，返回DOM结构
+	
+- ```componentDidMount ``` 	
+	
+	在渲染之后触发一次
+
+##### 有需要重新渲染（props变更或者setState改变state时）
+
+- ```componentWillReceiveProps ```	
+	
+	组件接收到新的props时调用，并将其作为参数nextProps使用，可在此更改组件state
+	
+- ```shouldComponentUpdate ```
+	
+	判断是否需要更新组件（在首次渲染期间或者调用了forceUpdate方法后，该方法不会被调用）
+	
+- ```componentWillUpdate```
+	
+	更新渲染前调用
+	
+- ```render ```
+	
+	渲染函数，返回DOM结构
+	
+- ```componentDidUpdate```
+	
+	更新渲染后调用
+
+
+##### 销毁
+
+- ```componentWillUnmount ```
+	
+	组件移除之前调用
 
 #### 事件
 
