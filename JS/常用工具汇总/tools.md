@@ -32,7 +32,7 @@ function sortRebuild(arr,orderby){
 
 其中 *tag*`zh-Hans-CN`在[这里](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)查询.
 
-> 去重排序 **Learn From [Here](https://github.com/hanzichi/underscore-analysis/issues/9)**
+> 去重 **Learn From [Here](https://github.com/hanzichi/underscore-analysis/issues/9)**
 
 * Method One
 
@@ -106,11 +106,20 @@ function unique(arr){
 }
 ```
 
-> 判断类型 **Learn From [Here](https://github.com/hanzichi/underscore-analysis/issues/9)**
+> 判断基本类型 **Learn From [Here](https://github.com/hanzichi/underscore-analysis/issues/9)**
 
 ```js
-let checkType =['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error'];
-checkType.forEach( (ele) => (_['is'+ele] = (obj) => Object.propertype.toString.call(obj) === ['object ' +ele]))
+window.newTool = {}
+
+checkType = ['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error'];
+
+checkType.forEach(element => {
+    return newTool['is'+element] = function(obj){
+      return Object.prototype.toString.call(obj) === '[object '+element+']';
+    }
+});
+
+console.log(newTool.isNumber(1)) // => true
 ```
 
 
