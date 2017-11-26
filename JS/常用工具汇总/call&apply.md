@@ -23,7 +23,9 @@ Cat.prototype.eat.apply(Dog,['fish']) // => eat fish
 ```
 
 different with `call` and `apply`
+
 `Function.propertype.call(thisArg, arg1, arg2, ...) // 参数是一个个顺序参数` 
+
 `Function.propertype.apply(thisArg, [arg1, arg2, ...]) // 参数为参数组成的数组`
 
 `call` & `apply`  and `bind`
