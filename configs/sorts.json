@@ -1,0 +1,85 @@
+{
+    "": [
+        "readme.md", 
+        "ts", 
+        "css&html", 
+        "js", 
+        "code", 
+        "http", 
+        "\u5355\u5143\u6d4b\u8bd5", 
+        "\u6027\u80fd", 
+        "\u6846\u67b6"
+    ], 
+    "\u6846\u67b6": [
+        "react"
+    ], 
+    "\u6027\u80fd": [
+        "browser", 
+        "note"
+    ], 
+    "ts": [
+        "readme.txt"
+    ], 
+    "js": [
+        "es6\u5b66\u4e60", 
+        "javascript\u539f\u578b\u94fe", 
+        "learnbook", 
+        "promise", 
+        "\u4e8b\u4ef6", 
+        "\u5b66\u4e60underscore", 
+        "\u5e38\u7528\u5de5\u5177\u6c47\u603b", 
+        "\u6269\u5c55\u8fd0\u7b97\u7b26", 
+        "\u83b7\u5f97url", 
+        "\u95ed\u5305"
+    ], 
+    "__positions": {
+        "js/\u5b66\u4e60underscore": 4006, 
+        "code": 5, 
+        "js/\u4e8b\u4ef6": 4005, 
+        "js/javascript\u539f\u578b\u94fe": 4002, 
+        "js/\u95ed\u5305": 4010, 
+        "css&html": 3, 
+        "js/\u5e38\u7528\u5de5\u5177\u6c47\u603b": 4007, 
+        "ts/readme.txt": 2001, 
+        "\u5355\u5143\u6d4b\u8bd5": 7, 
+        "ts": 2, 
+        "js/promise": 4004, 
+        "\u6027\u80fd/note": 8002, 
+        "js/learnbook": 4003, 
+        "\u6027\u80fd/browser": 8001, 
+        "http": 6, 
+        "\u6027\u80fd": 8, 
+        "js": 4, 
+        "js/\u6269\u5c55\u8fd0\u7b97\u7b26": 4008, 
+        "readme.md": 1, 
+        "\u6846\u67b6/react": 9001, 
+        "\u6846\u67b6": 9, 
+        "js/\u83b7\u5f97url": 4009, 
+        "js/es6\u5b66\u4e60": 4001
+    }, 
+    "__raw_positions": {
+        "js/\u5b66\u4e60underscore": 6, 
+        "code": 5, 
+        "js/\u4e8b\u4ef6": 5, 
+        "js/javascript\u539f\u578b\u94fe": 2, 
+        "js/\u95ed\u5305": 10, 
+        "css&html": 3, 
+        "js/\u5e38\u7528\u5de5\u5177\u6c47\u603b": 7, 
+        "ts/readme.txt": 1, 
+        "\u5355\u5143\u6d4b\u8bd5": 7, 
+        "ts": 2, 
+        "js/promise": 4, 
+        "\u6027\u80fd/note": 2, 
+        "js/learnbook": 3, 
+        "\u6027\u80fd/browser": 1, 
+        "http": 6, 
+        "\u6027\u80fd": 8, 
+        "js": 4, 
+        "js/\u6269\u5c55\u8fd0\u7b97\u7b26": 8, 
+        "readme.md": 1, 
+        "\u6846\u67b6/react": 1, 
+        "\u6846\u67b6": 9, 
+        "js/\u83b7\u5f97url": 9, 
+        "js/es6\u5b66\u4e60": 1
+    }
+}
