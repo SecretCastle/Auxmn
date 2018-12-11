@@ -1,10 +1,11 @@
-#  TypeScript
+# TypeScript
 
 > 注意事项
 
 * `tsconfig.json` 
 
 webpack.config.js
+
 ```js
 ...
 resolve: {
@@ -16,6 +17,7 @@ resolve: {
 ```
 
 tsconfig.json
+
 ```json
 {
     "compilerOptions": {
