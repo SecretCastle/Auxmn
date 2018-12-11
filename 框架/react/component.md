@@ -2,7 +2,7 @@
 
 [学习自](https://juejin.im/post/5b07caf16fb9a07aa83f2977)
 
->  无状态组件
+##  无状态组件
 
 组件中不包含`state`的纯组件，目的是单纯的展示UI
 
@@ -26,6 +26,7 @@ export default class Button extends React.Componet<Props, object> {
 
 ```
 **使用**
+
 调用`Button`组件，通过props传递`onClick`事件达到绑定事件
 ```js
 import * as React from 'react';
@@ -44,8 +45,7 @@ export default App extends React.Component {
     }
 }
 ```
-
->   有状态组件
+## 有状态组件
 
 组件中包含`state`, 更具state的变化，组件重新渲染
 
@@ -108,5 +108,5 @@ export default class App extends React.Component {
 }
 ```
 
-
+## 组件的默认属性
 
