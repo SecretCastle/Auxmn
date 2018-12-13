@@ -110,3 +110,7 @@ export default class App extends React.Component {
 
 ## 组件的默认属性
 
+泛型没看懂 😔
+
+
+## render

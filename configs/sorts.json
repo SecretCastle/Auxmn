@@ -24,6 +24,7 @@
         "note"
     ], 
     "ts": [
+        "\u7406\u89e3.md", 
         "readme.md"
     ], 
     "js": [
@@ -46,6 +47,7 @@
         "js/javascript\u539f\u578b\u94fe": 4002, 
         "js/\u95ed\u5305": 4010, 
         "css&html": 3, 
+        "ts/\u7406\u89e3.md": 2001, 
         "js/\u5e38\u7528\u5de5\u5177\u6c47\u603b": 4007, 
         "\u5355\u5143\u6d4b\u8bd5": 7, 
         "ts": 2, 
@@ -65,7 +67,7 @@
         "\u6846\u67b6": 9, 
         "js/\u83b7\u5f97url": 4009, 
         "js/es6\u5b66\u4e60": 4001, 
-        "ts/readme.md": 2001
+        "ts/readme.md": 2002
     }, 
     "__raw_positions": {
         "js/\u5b66\u4e60underscore": 6, 
@@ -75,6 +77,7 @@
         "js/javascript\u539f\u578b\u94fe": 2, 
         "js/\u95ed\u5305": 10, 
         "css&html": 3, 
+        "ts/\u7406\u89e3.md": 1, 
         "js/\u5e38\u7528\u5de5\u5177\u6c47\u603b": 7, 
         "\u5355\u5143\u6d4b\u8bd5": 7, 
         "ts": 2, 
@@ -94,6 +97,6 @@
         "\u6846\u67b6": 9, 
         "js/\u83b7\u5f97url": 9, 
         "js/es6\u5b66\u4e60": 1, 
-        "ts/readme.md": 1
+        "ts/readme.md": 2
     }
 }
