@@ -44,6 +44,7 @@ $ vim default
 > 进入nginx配置目录
 
 `$ cd ../etc/nginx/conf.d`
+
 `$ vim nodejs-3389.conf` 根据个人喜好定义名称，我依据服务和对应的端口号组成文件名
 
 ```
@@ -83,7 +84,7 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 * `systemctl stop nginx`暂停Nginx
 * `service reload nginx` 重启Nginx
 * `netstat -lntp` 查看所有端口号
-* `lsof -i:80` 模糊查询80相关端口
+* `lsof -i:80` 模糊查询80端口号相关进程
 * `kill -9 进程号` 强制杀死进程
 
 
