@@ -90,10 +90,20 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 
 
 
+>  常用命令
+
+* scp 文件名 用户名@服务器ip:目标路径
+
+`scp /Users/xiao/Documents/Image/favicon.ico root@192.168.191.32:~` 上传某个文件到远程服务器
 
 
+* 解压文件
 
+`sudo apt install unar`
 
+`unar file.zip`
 
+中文乱码使用
+`unar -e   GB18030 file.zip`
 
 
