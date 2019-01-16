@@ -102,3 +102,9 @@ mysql > SHOW VARIABLES LIKE 'validate_password%';
 ```
 
 重新执行一遍[使用mysql配置脚本](## 使用mysql配置脚本) 配置root密码即可
+
+
+>  修改配置文件
+
+brew安装的配置文件默认于 `/usr/local/ect/my.cnf`
+
