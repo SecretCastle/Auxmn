@@ -108,3 +108,10 @@ mysql > SHOW VARIABLES LIKE 'validate_password%';
 
 brew安装的配置文件默认于 `/usr/local/ect/my.cnf`
 
+
+>  常用命令
+
+启动mysql  `sudo /usr/local/mysql/support-files/mysql.server start`
+停止mysql  `sudo /usr/local/mysql/support-files/mysql.server stop`
+重启mysql `sudo /usr/local/mysql/support-files/mysql.server restart`
+
